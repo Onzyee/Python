@@ -18,7 +18,7 @@ class Aluno:
         if cadastro == True:
             while cond == True:
                 print("Nome do aluno: ")
-                nometemp = input
+                nometemp = input()
                 while cont <= len(self.nome):
                     if self.nome[cont] == nometemp:
                         cont = cont+1
@@ -33,7 +33,7 @@ class Aluno:
             cont = 0
             while cond == True:
                 print("Turma do aluno: ")
-                turmatemp = input
+                turmatemp = input()
                 while cont <= turma:
                     if self.turma[cont] == turmatemp:
                         cont = cont+1
